@@ -13,6 +13,12 @@
 
   <body>
     <main id="main">My ID is "main"!</main>
+    <script>
+    var main = document.querySelector('main');
+    main.addEventListener('click', function(event) {
+    main.innerText = "No, I'm 'main'. And so is my wife!"
+})
+    </script>
 
     <br />
 
